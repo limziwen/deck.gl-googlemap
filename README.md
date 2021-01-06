@@ -1,21 +1,14 @@
-# Deck.gl + Google Maps
 
-Build amazing data visualizations with Deck.gl and Google Maps JS. 
+Map to show the crime in Vancouver from 2003 to 2017, using Deck.GL and googlemaps
 
-📼 Watch the [Deck.gl Google Maps Lesson](https://fireship.io/lessons/deckgl-google-maps-tutorial)
+Weighting based on severity of crime and how recent it was.
 
-☠️ Explore the live [Gun Violence Demo](https://us-gun-violence.web.app/)
-
-## Run it
-
-Update the Google Maps API key in the `index.html` file. 
-
-```
-git clone <this-repo> 
-
-npm install
-npm start
-```
+Source: https://www.kaggle.com/wosaku/crime-in-vancouver
 
 
-Data contains over 140,000 U.S. gun-related incidents from 2013-2018 from http://www.gunviolencearchive.org/
+1. Download the csv file
+2. Run the file through convert.js (change file path)
+3. Get google map api key from GCP insert into index.html
+4. npm start
+
+Inspiration: https://fireship.io/lessons/deckgl-google-maps-tutorial/
